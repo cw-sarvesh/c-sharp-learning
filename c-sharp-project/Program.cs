@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Divide = test_namespace;
 
 
 namespace c_sharp_project
@@ -22,16 +23,22 @@ namespace c_sharp_project
 
             int subtractResult = Sum.Subtract(4, 2);
 
-            System.Console.WriteLine(addResult);
-            System.Console.WriteLine(subtractResult);
+            Console.WriteLine(addResult);
+            Console.WriteLine(subtractResult);
 
 
 
-            // Class when present in different namespace or directory.
+            // Class resent in different namespace or directory.
 
             int productResult = Multiply.Multiply.Product(5, 5);
 
-            System.Console.WriteLine(productResult);
+            Console.WriteLine(productResult);
+
+
+            // Using method from outside project
+            float divideResult = Divide.Program.Divide(14, 7);
+
+            System.Console.WriteLine(divideResult);
 
         }
 
