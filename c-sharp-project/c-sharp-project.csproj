@@ -9,6 +9,8 @@
   </PropertyGroup>
 
     <ItemGroup>
+    <PackageReference Include="AEPLCore.Cache" Version="4.8.0" />
+    <PackageReference Include="AEPLCore.DataAccess" Version="4.3.0" />
     <ProjectReference Include="..\test-namespace\test-namespace.csproj" />
     </ItemGroup>
 </Project>
